@@ -1,5 +1,12 @@
 # JPHACS
 
+右上アイコンのsettingsからAccess Classic Tokenを入手し、認証。そしてRepoにチェック。
+```bash
+git config --global credential.helper osxkeychain
+```
+で認証を自動で行ってくれる。
+
+
 変更した部分をGitHubなどのリモートリポジトリにプッシュする際には、次のステップを順に行う必要があります。変更内容をステージし、コミットし、リモートにプッシュする基本的なGitのフローを説明します。
 
 最初に
