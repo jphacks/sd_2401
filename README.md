@@ -84,3 +84,29 @@ git rebase --continue
 4. 必要に応じてリモートの変更を取り込み (`git pull origin main --rebase`)、マージコンフリクトがあれば解決する。
 
 この手順に従えば、変更を安全にリモートリポジトリにプッシュできます。
+
+
+
+###リモートリポジトリ
+
+1. **リモートリポジトリを追加する**:
+   ```bash
+   git remote add origin https://github.com/username/repository.git
+   ```
+
+2. **リモートリポジトリを確認する**:
+   ```bash
+   git remote -v
+   ```
+
+3. **リモートリポジトリにプッシュする**:
+   ```bash
+   git push origin main
+   ```
+
+4. **別のリモートリポジトリにプッシュする場合**:
+   ```bash
+   git push backup main
+   ```
+
+リモートリポジトリを正しく設定し、目的のリポジトリにプッシュできるようにこれらの手順に従って進めてください。質問があれば、さらにサポートいたします。
