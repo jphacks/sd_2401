@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6A91EF242CC88E3B0088526F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6A91EF232CC88E3B0088526F /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6A3A971B2CC4DD9C009CAFDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A91EF242CC88E3B0088526F /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				6A3A970C2CC4DD9A009CAFDC /* Speaking */,
 				6A3A971D2CC4DD9C009CAFDC /* SpeakingTests */,
 				6A3A97272CC4DD9C009CAFDC /* SpeakingUITests */,
+				6A91EF222CC88E3B0088526F /* Frameworks */,
 				6A3A970B2CC4DD9A009CAFDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				6A3A97242CC4DD9C009CAFDC /* SpeakingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6A91EF222CC88E3B0088526F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = Speaking;
 			packageProductDependencies = (
+				6A91EF232CC88E3B0088526F /* SDWebImageSwiftUI */,
 			);
 			productName = Speaking;
 			productReference = 6A3A970A2CC4DD9A009CAFDC /* Speaking.app */;
@@ -195,6 +209,10 @@
 			);
 			mainGroup = 6A3A97012CC4DD9A009CAFDC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6A91EF212CC88C930088526F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				6A91EF2B2CC893B20088526F /* XCRemoteSwiftPackageReference "swift-nio" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6A3A970B2CC4DD9A009CAFDC /* Products */;
 			projectDirPath = "";
@@ -396,9 +414,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Speaking/Preview Content\"";
+				DEVELOPMENT_TEAM = 776F5SAWF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -424,9 +445,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Speaking/Preview Content\"";
+				DEVELOPMENT_TEAM = 776F5SAWF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -552,6 +576,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A91EF212CC88C930088526F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+		6A91EF2B2CC893B20088526F /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.75.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A91EF232CC88E3B0088526F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A91EF212CC88C930088526F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A3A97022CC4DD9A009CAFDC /* Project object */;
 }
