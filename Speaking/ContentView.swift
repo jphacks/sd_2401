@@ -9,6 +9,8 @@ struct ContentView: View {
     @State private var selectedTheme: String? = nil // 選択されたテーマを保持
     @State private var isMicActive = false // マイクの状態を保持
     @State private var keyboardHeight: CGFloat = 0
+    @State private var maxThemes = 4 //　表示するテーマの数
+    @State private var generatedThemes: [String] = [] // 生成されたテーマを保持するための配列
     
     var body: some View {
         NavigationView {
@@ -45,6 +47,8 @@ struct ContentView: View {
                     
                     // Theme Generation Button
                     Button(action: {
+                        // print(favoriteThemes)
+                        generatedThemes = ThemeGenerator.generateThemes(basedOn: favoriteThemes, maxThemes: maxThemes)
                         showGeneratedThemes.toggle()
                     }) {
                         Text("テーマ生成")
@@ -59,7 +63,7 @@ struct ContentView: View {
                     // Show Generated Themes as Buttons
                     if showGeneratedThemes {
                         VStack(alignment: .leading) {
-                            ForEach(favoriteThemes, id: \.self) { theme in
+                            ForEach(generatedThemes, id: \.self) { theme in
                                 Button(action: {
                                     selectedTheme = theme // テーマを選択
                                 }) {
@@ -102,12 +106,14 @@ struct ContentView: View {
             }
             .navigationTitle("モード選択")
         }
+        
     }
     
     func addNewTheme() {
         if !newTheme.isEmpty {
             favoriteThemes.append(newTheme)
             newTheme = ""  // TextFieldの内容をリセット
+            // print(favoriteThemes)
         }
     }
     
@@ -138,11 +144,23 @@ struct FavoriteThemesView: View {
             
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 10) {
                 ForEach(favoriteThemes, id: \.self) { theme in
-                    Text(theme)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.gray.opacity(0.2))
-                        .cornerRadius(10)
+                    ZStack(alignment: .topLeading){
+                        Text(theme)
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(Color.gray.opacity(0.2))
+                            .cornerRadius(10)
+                        
+                        // マイナスボタンを追加して削除機能を実装
+                        Button(action: {
+                            removeTheme(theme: theme)
+                        }) {
+                            Image(systemName: "minus.circle.fill")
+                                .foregroundColor(.red)
+                        }
+                        .offset(x: -5, y: -5)
+                        
+                    }
                 }
             }
             
@@ -164,6 +182,13 @@ struct FavoriteThemesView: View {
         .background(Color.white)
         .cornerRadius(15)
         .shadow(radius: 5)
+    }
+    
+    // テーマを削除する関数
+    func removeTheme(theme: String) {
+        if let index = favoriteThemes.firstIndex(of: theme) {
+            favoriteThemes.remove(at: index)
+        }
     }
 }
 
