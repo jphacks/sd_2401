@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct SpeakingApp: App {
+struct MyApp: App {
+    // @StateObject private var speechManager = SpeechManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+              // .environmentObject(speechManager) // Inject into the environment
         }
     }
 }
