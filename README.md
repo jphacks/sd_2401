@@ -1,10 +1,6 @@
 # EGOイスト
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
-
-
-|![](https://github.com/user-attachments/assets/bde8e8eb-3fe7-4bc7-ba71-ebdb0a39801e)|![](https://github.com/user-attachments/assets/ff0a6261-a7f3-4b7e-89b6-f40ba6253742)|![](https://github.com/user-attachments/assets/99bbf964-85e5-4cb6-ae75-01b97f3ce58d)|
-
+|<img width="420" alt="Screenshot 2024-10-27 at 23 54 19" src="https://github.com/user-attachments/assets/bde8e8eb-3fe7-4bc7-ba71-ebdb0a39801e">|<img width="420" alt="Screenshot 2024-10-27 at 23 58 23" src="https://github.com/user-attachments/assets/99bbf964-85e5-4cb6-ae75-01b97f3ce58d">|<img width="420" alt="Screenshot 2024-10-27 at 23 58 56" src="https://github.com/user-attachments/assets/ff0a6261-a7f3-4b7e-89b6-f40ba6253742">|
 
 |<img width="325" alt="Screenshot 2024-10-28 at 0 07 36" src="https://github.com/user-attachments/assets/e70ef802-a37e-48d0-9cd5-8dca522071b3">|<img width="343" alt="Screenshot 2024-10-28 at 0 09 44" src="https://github.com/user-attachments/assets/459c77d7-a5fd-4acb-bf4c-a76caad06522">|
 
