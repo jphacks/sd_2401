@@ -1,6 +1,6 @@
 # EIGOイスト
 自分の好きなモノをもとに楽しく英語スピーキングを学習できるアプリ、 **EIGOイスト** 
-<img width="831" alt="Screenshot 2024-10-28 at 5 35 52" src="https://github.com/user-attachments/assets/e24428fb-53a5-48b1-98df-b95c924a9d84">
+<img width="830" alt="Screenshot 2024-10-28 at 5 46 54" src="https://github.com/user-attachments/assets/2f35d373-fc53-4db7-bb27-c941d271a461">
 
 
 ## デモ動画
