@@ -4,18 +4,34 @@ struct EvaluateView: View {
     // audioFileURL と textFileURL を引数として受け取る
     let audioFileURL: URL?
     let textFileURL: URL?
+    let decidedTheme: [String]
     
     // EvaluateSpeech のインスタンスを持つ
     @StateObject private var evaluateSpeech = EvaluateSpeech()
+    // EvaluateSpeech_content のインスタンスを持つ
+    @StateObject private var evaluateSpeechContent: EvaluateSpeech_content
     
     // 評価結果を保持するための状態変数
     @State private var evaluationResult: ProcessedEvaluationData?
     @State private var isLoading = false
     @State private var errorMessage: String?
     
+    // ChatGPTからのテーマ一致結果
+    @State private var themeCheckResult: String?
+    @State private var isThemeChecking = false
+    @State private var themeCheckError: String?
+    
+    init(audioFileURL: URL?, textFileURL: URL?, decidedTheme: [String]) {
+        self.audioFileURL = audioFileURL
+        self.textFileURL = textFileURL
+        self.decidedTheme = decidedTheme
+        // EvaluateSpeech_content のインスタンスを初期化
+        _evaluateSpeechContent = StateObject(wrappedValue: EvaluateSpeech_content(conversationManager: ConversationManager(apiKey: Config.openai_apiKey)))
+    }
+    
     var body: some View {
         NavigationStack {
-            ScrollView { // ScrollViewを追加
+            ScrollView { // ここを追加
                 VStack(alignment: .leading, spacing: 24) {
                     
                     // 各評価項目を縦に配置
@@ -63,80 +79,78 @@ struct EvaluateView: View {
                             ProgressView("評価中...")
                                 .padding(.leading, 10)
                         } else if let evaluationResult = evaluationResult {
-                            // 70点以下の単語をフィルタリング
-                            let lowScoreWords = evaluationResult.wordScoreList.filter { $0.qualityScore <= 70 }
-                            // 71点以上80点以下の単語をフィルタリング
-                            let mediumScoreWords = evaluationResult.wordScoreList.filter { $0.qualityScore > 70 && $0.qualityScore <= 80 }
-                            
-                            // 70点以下の単語を表示
-                            if !lowScoreWords.isEmpty {
-                                Text("70点以下の単語:")
+                            // 各単語の評価を表示
+                            if !evaluationResult.wordScoreList.isEmpty {
+                                Text("評価された単語:")
                                     .font(.headline)
                                     .padding(.leading, 10)
                                 
-                                // 6列のLazyVGridを使用
-                                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 1), count: 6), spacing: 1) {
-                                    ForEach(lowScoreWords, id: \.word) { wordScore in
-                                        Text(wordScore.word)
-                                            .font(.footnote)
-                                            .foregroundColor(color(for: Double(wordScore.qualityScore)))
-                                            .padding(5)
-                                            .background(Color.gray.opacity(0.1)) // 背景色を追加して視認性を向上
-                                            .cornerRadius(5)
-                                    }
-                                }
-                                .padding(.leading, 10) // パディングを追加
+                                // 色付き単語を連結して表示し、適切に改行
+                                buildColoredText(from: evaluationResult.wordScoreList)
+                                    .padding(.leading, 10)
+                                    .lineLimit(nil) // 必要に応じて改行を行う
+                                    .fixedSize(horizontal: false, vertical: true) // 水平方向に収まらない場合は改行
                             }
                             
-                            // 71点以上80点以下の単語を表示
-                            if !mediumScoreWords.isEmpty {
-                                Text("71点以上80点以下の単語:")
+                            VStack(alignment: .leading, spacing: 16) {
+                                // 採点結果セクション
+                                Text("採点結果")
                                     .font(.headline)
                                     .padding(.leading, 10)
                                 
-                                // 6列のLazyVGridを使用
-                                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 1), count: 6), spacing: 1) {
-                                    ForEach(mediumScoreWords, id: \.word) { wordScore in
-                                        Text(wordScore.word)
-                                            .font(.footnote)
-                                            .foregroundColor(color(for: Double(wordScore.qualityScore)))
-                                            .padding(5)
-                                            .background(Color.gray.opacity(0.1)) // 背景色を追加して視認性を向上
-                                            .cornerRadius(5)
-                                    }
+                                HStack {
+                                    Text("Pronunciation:")
+                                        .padding(.leading, 20)
+                                    Text("\(Int(evaluationResult.speechacePronunciation))点")
                                 }
-                                .padding(.leading, 10) // パディングを追加
+                                .fixedSize(horizontal: false, vertical: true)
+                                
+                                HStack {
+                                    Text("Fluency:")
+                                        .padding(.leading, 20)
+                                    Text("\(Int(evaluationResult.speechaceFluency))点")
+                                }
+                                .fixedSize(horizontal: false, vertical: true)
+                                
+                                // IELTS換算セクション
+                                Text("IELTS換算")
+                                    .font(.headline)
+                                    .padding(.leading, 10)
+                                
+                                HStack {
+                                    Text("Pronunciation:")
+                                        .padding(.leading, 20)
+                                    Text("\(Int(evaluationResult.ieltsPronunciation))点")
+                                }
+                                .fixedSize(horizontal: false, vertical: true)
+                                
+                                HStack {
+                                    Text("Fluency:")
+                                        .padding(.leading, 20)
+                                    Text("\(Int(evaluationResult.ieltsFluency))点")
+                                }
+                                .fixedSize(horizontal: false, vertical: true)
+                                
+                                // CEFR換算セクション
+                                Text("CEFR換算")
+                                    .font(.headline)
+                                    .padding(.leading, 10)
+                                
+                                HStack {
+                                    Text("Pronunciation:")
+                                        .padding(.leading, 20)
+                                    Text("\(evaluationResult.cefrPronunciation)")
+                                }
+                                .fixedSize(horizontal: false, vertical: true)
+                                
+                                HStack {
+                                    Text("Fluency:")
+                                        .padding(.leading, 20)
+                                    Text("\(evaluationResult.cefrFluency)")
+                                }
+                                .fixedSize(horizontal: false, vertical: true)
                             }
                             
-                            Text("採点結果")
-                                .font(.headline)
-                                .padding(.leading, 10)
-                            Text("Pronunciation: \(Int(evaluationResult.speechacePronunciation))点")
-                                .padding(.leading, 10)
-                                .fixedSize(horizontal: false, vertical: true)
-                            Text("Fluency: \(Int(evaluationResult.speechaceFluency))点")
-                                .padding(.leading, 10)
-                                .fixedSize(horizontal: false, vertical: true)
-                            
-                            Text("IELTS換算")
-                                .font(.headline)
-                                .padding(.leading, 10)
-                            Text("Pronunciation: \(Int(evaluationResult.ieltsPronunciation))点")
-                                .padding(.leading, 10)
-                                .fixedSize(horizontal: false, vertical: true)
-                            Text("Fluency: \(Int(evaluationResult.ieltsFluency))点")
-                                .padding(.leading, 10)
-                                .fixedSize(horizontal: false, vertical: true)
-                            
-                            Text("CEFR換算")
-                                .font(.headline)
-                                .padding(.leading, 10)
-                            Text("Pronunciation: \(evaluationResult.cefrPronunciation)")
-                                .padding(.leading, 10)
-                                .fixedSize(horizontal: false, vertical: true)
-                            Text("Fluency: \(evaluationResult.cefrFluency)")
-                                .padding(.leading, 10)
-                                .fixedSize(horizontal: false, vertical: true)
                             
                         } else if let errorMessage = errorMessage {
                             Text("エラー: \(errorMessage)")
@@ -150,28 +164,56 @@ struct EvaluateView: View {
                         
                         // Contentセクション
                         Text("Content")
-                            .font(.title2) // タイトルサイズを大きく
+                            .font(.title2)
                             .foregroundColor(.blue)
                         
-                        if let evaluationResult = evaluationResult {
-                            Text("Pronunciation is excellent, with clear articulation and correct stress patterns. Minor improvements could be made to intonation on specific words.")
-                                .padding(.leading, 10) // フィードバック部分にインデントを追加
+                        if isThemeChecking {
+                            ProgressView("テーマをチェック中...")
+                                .padding(.leading, 10)
+                        } else if let themeCheckResult = themeCheckResult {
+                            Text("ChatGPTの応答: \(themeCheckResult)")
+                                .padding(.leading, 10)
                                 .fixedSize(horizontal: false, vertical: true)
+                        } else if let themeCheckError = themeCheckError {
+                            Text("エラー: \(themeCheckError)")
+                                .padding(.leading, 10)
                         } else {
                             Text("評価データがありません。")
                                 .padding(.leading, 10)
                         }
+                        
                     }
                     .padding()
                     .onAppear {
-                        fetchPronunciationEvaluation() // ビューが表示されたときに評価を取得
+                        fetchPronunciationEvaluation()
+                        checkThemeWithChatGPT() // テーマと内容のチェックを行う
+                        
                     }
-                    
-                    Spacer()
                     
                 }
                 .padding()
-                .navigationTitle("Report")
+            } // ScrollViewの終わり
+            .navigationTitle("Report")
+        }
+    }
+    
+    private func checkThemeWithChatGPT() {
+        guard let textFileURL = textFileURL else {
+            themeCheckError = "テキストファイルがありません。"
+            return
+        }
+        
+        isThemeChecking = true
+        
+        // EvaluateSpeech_contentのテーマチェックメソッドを使用
+        evaluateSpeechContent.checkTextAgainstTheme(textFileURL: textFileURL, decidedTheme: decidedTheme) { result in
+            DispatchQueue.main.async {
+                isThemeChecking = false
+                if let result = result {
+                    self.themeCheckResult = result
+                } else {
+                    self.themeCheckError = "ChatGPTからの応答がありませんでした。"
+                }
             }
         }
     }
@@ -199,18 +241,30 @@ struct EvaluateView: View {
     // 各単語の評価に応じた色を返す
     private func color(for qualityScore: Double) -> Color {
         switch qualityScore {
-        case 81...100:
+        case 80...100:
             return .green
-        case 71..<81:
+        case 70..<80:
             return .orange
         default:
             return .red
         }
     }
+    
+    // 色付きの文章を改行を含めて表示
+    private func buildColoredText(from wordScoreList: [WordScore]) -> Text {
+        var coloredText = Text("")
+        
+        for wordScore in wordScoreList {
+            let wordWithColor = Text(wordScore.word + " ") // 単語の後にスペースを追加
+                .foregroundColor(color(for: Double(wordScore.qualityScore))) // Doubleにキャスト
+            
+            coloredText = coloredText + wordWithColor
+        }
+        
+        return coloredText // Text型のまま返す
+    }
 }
 
 #Preview {
-    // ここで一時的に適当なURLを渡しておく
-    EvaluateView(audioFileURL: nil, textFileURL: nil)
+    EvaluateView(audioFileURL: nil, textFileURL: nil, decidedTheme: ["Technology", "Education"])
 }
-

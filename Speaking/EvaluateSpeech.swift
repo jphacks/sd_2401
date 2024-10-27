@@ -111,7 +111,6 @@ class EvaluateSpeech: ObservableObject {
         textFileURL: URL,
         completion: @escaping (Result<ProcessedEvaluationData, Error>) -> Void
     ) {
-        // エンドポイントとAPIキーの設定
         let apiEndpoint = Config.Speechace_apiendpoint
         
         // 音声ファイルデータの取得
@@ -230,6 +229,68 @@ class EvaluateSpeech: ObservableObject {
             }
         }
         task.resume()
+    }
+    
+    
+}
+
+
+// contentはConversationManagerをイニシャライザの引数にいれるので分ける
+class EvaluateSpeech_content: ObservableObject {
+    private var conversationManager: ConversationManager
+    
+    // イニシャライザでconversationManagerを初期化
+    init(conversationManager: ConversationManager) {
+        self.conversationManager = conversationManager
+    }
+
+    // テーマとテキストファイルの内容を評価するメソッド
+    func checkTextAgainstTheme(textFileURL: URL, decidedTheme: [String], completion: @escaping (String?) -> Void) {
+        do {
+            // テキストファイルの内容を読み込む
+            let textContent = try String(contentsOf: textFileURL, encoding: .utf8)
+            // ChatGPTにテーマと内容が一致しているか質問
+            let prompt = """
+            スピーチのテーマ： \(decidedTheme.joined(separator: ", ")). 
+            テキストファイルの内容: \(textContent).
+            テキストファイルを次の観点a-dで評価し、その評価が改善されるような修正案を示してください。
+            a. テキストファイルの内容がスピーチのテーマに合っているか。
+            b. スピーチの構成は適切であり論理構造が明確であるか。
+            c. 文法は正確に使うことができているか。
+            d. 多様な語彙が使えているか。
+            
+            修正案は以下の仕様を全て必ず守ってください。
+            ・修正案は英文で書き、一部でなく全て示すこと。
+            ・もとのテキストファイルの内容を尊重し、修正が必要な部分のみを修正すること。（評価が非常に低い場合はこれに従う必要はない。）
+            ・あなたの行った評価や提案内容との対応がユーザーにとって明確であるような修正案を提示すること。
+            ・英文の最初と最後を""で囲うこと。
+            ・修正案は難しい語彙、表現を用いないこと。
+            
+            出力形式は以下のようにしてください。改行、インデントも守ってください。{}の部分はあなたが考える部分です。
+            
+            1. 一貫性
+            　　評価：{観点aの評価(10段階)}
+            　　理由：{評価の理由を簡潔に書く。}
+            2. 構成
+               評価：{観点bの評価(10段階)}
+               理由：{評価の理由を簡潔に書く。}
+            3. 文法
+            　　評価：{観点cの評価(5段階)}
+            　　理由：{評価の理由を簡潔に書く。より適切な文法表現があれば提案する。}
+            4. 語彙
+            　　評価：{観点dの評価(5段階)}
+            　　理由：{評価の理由を簡潔に書く。語彙が偏っている部分があれば新しい語彙を提案する。}
+            改善案　
+            　　{修正された英文を書く。仕様を必ず守ること。｝
+            """
+            
+            conversationManager.Conversation(prompt: prompt) { response in
+                completion(response)
+            }
+        } catch {
+            print("Failed to read text file: \(error.localizedDescription)")
+            completion(nil)
+        }
     }
 }
 

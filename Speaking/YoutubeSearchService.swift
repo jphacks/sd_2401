@@ -1,11 +1,24 @@
 import Foundation
 
+import Foundation
+
 class YoutubeSearchService {
     let apiKey = Config.youtube_apikey
     
-    func searchYoutubeVideos(query: String, completion: @escaping ([YoutubeVideo]) -> Void) {
+    func searchYoutubeVideos(query: String, videoDuration: String? = nil, relevanceLanguage: String? = nil, completion: @escaping ([YoutubeVideo]) -> Void) {
+        // URLエンコードされたクエリ
         let encodedQuery = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        let urlString = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=\(encodedQuery)&key=\(apiKey)"
+        
+        // ベースのURL文字列
+        var urlString = "https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=\(encodedQuery)&key=\(apiKey)"
+        
+        // オプションのパラメータを追加
+        if let videoDuration = videoDuration {
+            urlString += "&videoDuration=\(videoDuration)"
+        }
+        if let relevanceLanguage = relevanceLanguage {
+            urlString += "&relevanceLanguage=\(relevanceLanguage)"
+        }
         
         guard let url = URL(string: urlString) else {
             print("Invalid URL")
@@ -48,92 +61,6 @@ class YoutubeSearchService {
                 DispatchQueue.main.async {
                     completion([])
                 }
-            }
-        }
-        task.resume()
-    }
-    
-    func getCaptions(for videoId: String, completion: @escaping (String?) -> Void) {
-        let urlString = "https://www.googleapis.com/youtube/v3/captions?part=snippet&videoId=\(videoId)&key=\(apiKey)"
-        
-        guard let url = URL(string: urlString) else {
-            print("Invalid URL")
-            completion(nil)
-            return
-        }
-        
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            if let error = error {
-                print("Error fetching captions: \(error.localizedDescription)")
-                DispatchQueue.main.async {
-                    completion(nil)
-                }
-                return
-            }
-            
-            guard let data = data else {
-                print("No data received")
-                DispatchQueue.main.async {
-                    completion(nil)
-                }
-                return
-            }
-            
-            do {
-                if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-                   let items = json["items"] as? [[String: Any]],
-                   let firstItem = items.first,
-                   let snippet = firstItem["snippet"] as? [String: Any],
-                   let captionId = firstItem["id"] as? String {
-                    self.downloadCaption(captionId: captionId, completion: completion)
-                } else {
-                    print("Failed to parse captions data")
-                    DispatchQueue.main.async {
-                        completion(nil)
-                    }
-                }
-            } catch {
-                print("JSON parsing error: \(error)")
-                DispatchQueue.main.async {
-                    completion(nil)
-                }
-            }
-        }
-        task.resume()
-    }
-    
-    private func downloadCaption(captionId: String, completion: @escaping (String?) -> Void) {
-        let urlString = "https://www.googleapis.com/youtube/v3/captions/\(captionId)?key=\(apiKey)"
-        
-        guard let url = URL(string: urlString) else {
-            print("Invalid URL")
-            completion(nil)
-            return
-        }
-        
-        var request = URLRequest(url: url)
-        request.addValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
-        
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            if let error = error {
-                print("Error downloading caption: \(error.localizedDescription)")
-                DispatchQueue.main.async {
-                    completion(nil)
-                }
-                return
-            }
-            
-            guard let data = data else {
-                print("No caption data received")
-                DispatchQueue.main.async {
-                    completion(nil)
-                }
-                return
-            }
-            
-            let captionText = String(data: data, encoding: .utf8)
-            DispatchQueue.main.async {
-                completion(captionText)
             }
         }
         task.resume()

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A91EF242CC88E3B0088526F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6A91EF232CC88E3B0088526F /* SDWebImageSwiftUI */; };
+		81D911122CCCAB2000927553 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 81D911112CCCAB2000927553 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A91EF242CC88E3B0088526F /* SDWebImageSwiftUI in Frameworks */,
+				81D911122CCCAB2000927553 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +141,7 @@
 			name = Speaking;
 			packageProductDependencies = (
 				6A91EF232CC88E3B0088526F /* SDWebImageSwiftUI */,
+				81D911112CCCAB2000927553 /* SwiftSoup */,
 			);
 			productName = Speaking;
 			productReference = 6A3A970A2CC4DD9A009CAFDC /* Speaking.app */;
@@ -225,6 +228,7 @@
 			packageReferences = (
 				6A91EF212CC88C930088526F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				6A91EF2B2CC893B20088526F /* XCRemoteSwiftPackageReference "swift-nio" */,
+				81D911102CCCAA6800927553 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6A3A970B2CC4DD9A009CAFDC /* Products */;
@@ -607,6 +611,14 @@
 				minimumVersion = 2.75.0;
 			};
 		};
+		81D911102CCCAA6800927553 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -614,6 +626,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6A91EF212CC88C930088526F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		81D911112CCCAB2000927553 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81D911102CCCAA6800927553 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
