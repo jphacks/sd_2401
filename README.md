@@ -19,9 +19,17 @@ AIにはできないオリジナリティのあるスピーチを楽しく学習
 テーマに関するスピーチ内容の一貫性評価、スピーチ構成の評価、スピーチに個人の体験がうまく組み込まれているかを評価、語彙、表現の多様性の評価を観点として重視しています。これによりユーザーに内容、論理構成がはっきりしていて、オリジナリティあるスピーチを行うよう促進します。これにより課題1, 2を解決します。
 
 ### 製品説明（具体的な製品の説明）
-「好きなテーマ」モードでは、興味のあるテーマをいくつか入力し、テーマ生成ボタンを押すと、ChatGPTがそのテーマに基づいた多彩なトピックを提案します。気になるトピックを選び、マイクボタンを押してそのテーマについて話してみましょう。音声を提出すると、ChatGPTが内容や流暢さを分析し、改善点を丁寧にフィードバックします。
-また、「YouTube」モードや「news」モードでは、自分の好きなコンテンツを見た後、その内容について話すことで、ChatGPTがさらに効果的な改善点を提供してくれます！
+自分にあった形で、楽しく効果的にスピーキングを勉強しよう！
+このアプリでは「好きなテーマ」モード、「Youtube」モード、「News」モードの３つのスピーチテーマ生成コンテンツを提供しています。
+それぞれのモードの目的は、
 
+*好きなテーマモードでは、好きなテーマを融合させたテーマを生成して、自分だけが話せる面白いテーマに対してスピーキングをするモードです。
+* 「Youtube」モードでは、欲に負けてYoutubeを見る人でも、その内容をすぐにスピーキングでアウトプットすることで新たな勉強の流れを作っています。
+*「News」モードでは、リアルの時事問題を生かしてテーマを生成するので、長い時間英語学習をすることで社会情勢がわからくなることを防ぎ、むしろニュースを読む習慣を提供しています。
+
+それぞれのモードでは、**「興味のあるモノ」**(好きなテーマ、Youtube動画の内容、ニュース記事の内容)がテーマ生成のもととなっていて、テーマ生成ボタンを押すと、ChatGPTが **「興味のあるモノ」** に基づいた複数の多彩なスピーチテーマを提案します。その後、気になるスピーチテーマを選び、マイクボタンを押してそのテーマについて話してみます。最後に、その音声を提出すると、ChatGPTが内容や流暢さを分析し、改善点が丁寧にフィードバックされます！
+
+各モードごとの具体的な動作の流れは以下で丁寧に説明しています。
 
 ### 1.好きなテーマ
 #### 1.1. 好きなワードを入力します。
@@ -29,7 +37,7 @@ AIにはできないオリジナリティのあるスピーチを楽しく学習
 #### 1.3. マイクボタンを押して選択した「最も話したいテーマ」に関するスピーチを行い、音声を提出すると、評価が得られる。
 |<img width="250" alt="Screenshot 2024-10-28 at 0 26 22" src="https://github.com/user-attachments/assets/d322c3e1-4d85-4d55-8690-d6569c8dcd33">|<img width="250" alt="Screenshot 2024-10-28 at 0 27 01" src="https://github.com/user-attachments/assets/2efe477c-049d-476f-99d2-1e442b2f7f31">|<img width="250" alt="Screenshot 2024-10-28 at 0 33 56" src="https://github.com/user-attachments/assets/30bcdb10-7cfa-4642-92bd-2b121d701cae">|<img width="250" alt="Screenshot 2024-10-28 at 0 36 08" src="https://github.com/user-attachments/assets/a7c71165-aad2-47ee-b111-11a1f9c3ee97">|<img width="250" alt="Screenshot 2024-10-28 at 0 35 07" src="https://github.com/user-attachments/assets/d8c195ba-1822-495a-b1d7-ec92cf7a3a53">|
 
-### 2.Youtube動画
+### 2.Youtube
 #### 2.1. 見たい動画の検索ワードを入力し検索し、複数の動画が提案されるので最も見たい動画を選択する。(ダブルタップすることで動画をアプリ内で簡単に見られる。)
 #### 2.2. マイクボタンを押して選択した動画に関するスピーチを行い、音声を提出すると、評価が得られる。
 |<img width="250" alt="Screenshot 2024-10-27 at 23 54 19" src="https://github.com/user-attachments/assets/bde8e8eb-3fe7-4bc7-ba71-ebdb0a39801e">|<img width="250" alt="Screenshot 2024-10-27 at 23 58 23" src="https://github.com/user-attachments/assets/99bbf964-85e5-4cb6-ae75-01b97f3ce58d">|<img width="250" alt="Screenshot 2024-10-27 at 23 58 56" src="https://github.com/user-attachments/assets/ff0a6261-a7f3-4b7e-89b6-f40ba6253742">|<img width="250" alt="Screenshot 2024-10-28 at 0 07 36" src="https://github.com/user-attachments/assets/e70ef802-a37e-48d0-9cd5-8dca522071b3">|<img width="250" alt="Screenshot 2024-10-28 at 0 09 44" src="https://github.com/user-attachments/assets/459c77d7-a5fd-4acb-bf4c-a76caad06522">|
