@@ -53,14 +53,14 @@
 #### 1.1. 好きなワードを入力します。
 #### 1.2. 好きなワードに対してテーマ生成をして、複数のスピーチテーマから最も話したいテーマを選びます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
 
-<img src="https://github.com/user-attachments/assets/b3f776f9-d5d7-408c-b0fc-e848931c4275" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/b3f776f9-d5d7-408c-b0fc-e848931c4275" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="230"/>
 
 #### 1.3. マイクボタンを押して選択した「最も話したいテーマ」に関するスピーチを行い、音声を提出すると、評価が得られる。評価では、WordPerMinute、発音と流暢さ、話した内容の独自性、発音のチェック、模範解答等を分析＆採点しています。
 
-<img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/5b03ef37-aebe-41ab-b312-d3e7de2280b8" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/0479eefa-f35b-4a74-9c00-ab80f0cac788" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/5b03ef37-aebe-41ab-b312-d3e7de2280b8" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/0479eefa-f35b-4a74-9c00-ab80f0cac788" alt="画像説明" width="230"/>
 
 #### ＜対象ユーザー＞
 * **自分の好きなことならたくさん話せる人**
@@ -72,16 +72,16 @@
 ### 2.Youtube
 #### 2.1. 見たい動画の検索ワードを入力し検索し、複数の動画が提案されるので最も見たい動画を選択する。(ダブルタップすることで動画をアプリ内で簡単に見られる。)
 
-<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="220"/>
-<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="220"/>
-<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="220"/>
-<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="220"/>
+<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="230"/>
 
 #### 2.2. マイクボタンを押して選択した動画に関するスピーチを行い、音声を提出すると、評価が得られる。
 
-<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="230"/>
 
 #### ＜対象ユーザー＞
 * **スピーキング学習をしながら、エンタメも楽しみたいYoutube視聴者**
@@ -92,15 +92,15 @@
 ### 3.News
 #### 3.1. 興味のあるワードを入力し、検索ワードにヒットする最近の人気なニュースを検索します。
 
-<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="230"/>
 
 #### 3.2. 提案されたニュースを一つ選択することで、スピーチテーマを生成します(選択したニュースの左下を押すことで、ニュースをSafari等のブラウザで見れます)。記事のキーワードボタンを押すことでスピーチに使える重要キーワードをニュース記事から抽出してくれます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
 
-<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/228615dc-638e-43f1-a6f0-9f10f3528708" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/228615dc-638e-43f1-a6f0-9f10f3528708" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="230"/>
 
 #### 3.3. 3.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られる。この評価は、ChatGPTに記事の内容の全文を送ることによって精度の高い評価を実現しています。
 
