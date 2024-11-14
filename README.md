@@ -53,19 +53,20 @@
 ### 1.好きなテーマ
 #### 1.1. 好きなワードを入力します。
 #### 1.2. 好きなワードに対してテーマ生成をして、複数のスピーチテーマから最も話したいテーマを選びます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
+
+<img src="https://github.com/user-attachments/assets/b3f776f9-d5d7-408c-b0fc-e848931c4275" alt="画像説明" width="200"/>
+|<img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="200"/>
+
 #### 1.3. マイクボタンを押して選択した「最も話したいテーマ」に関するスピーチを行い、音声を提出すると、評価が得られる。評価では、WordPerMinute、発音と流暢さ、話した内容の独自性、発音のチェック、模範解答等を分析＆採点しています。
+|<img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="200"/>
+|<img src="https://github.com/user-attachments/assets/5b03ef37-aebe-41ab-b312-d3e7de2280b8" alt="画像説明" width="200"/>
+|<img src="https://github.com/user-attachments/assets/0479eefa-f35b-4a74-9c00-ab80f0cac788" alt="画像説明" width="200"/>
 
 #### ＜対象ユーザー＞
 * **自分の好きなことならたくさん話せる人**
 * **動画、ニュース等を介さないシンプルなスピーキング練習をしたい人**
 
-<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="200"/>
-|<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="200"/>
-|<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="200"/>
-|<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="230"/>
+
 
 
 
