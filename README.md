@@ -64,7 +64,7 @@
 
 
 
-|<img width="250" alt="Screenshot 2024-10-28 at 0 26 22" src="https://github.com/user-attachments/assets/d322c3e1-4d85-4d55-8690-d6569c8dcd33">|<img width="250" alt="Screenshot 2024-10-28 at 0 27 01" src="https://github.com/user-attachments/assets/2efe477c-049d-476f-99d2-1e442b2f7f31">|<img width="250" alt="Screenshot 2024-10-28 at 0 33 56" src="https://github.com/user-attachments/assets/30bcdb10-7cfa-4642-92bd-2b121d701cae">|<img width="250" alt="Screenshot 2024-10-28 at 0 36 08" src="https://github.com/user-attachments/assets/a7c71165-aad2-47ee-b111-11a1f9c3ee97">|<img width="250" alt="Screenshot 2024-10-28 at 0 35 07" src="https://github.com/user-attachments/assets/d8c195ba-1822-495a-b1d7-ec92cf7a3a53">|
+
 
 ### 2.Youtube
 #### 2.1. 見たい動画の検索ワードを入力し検索し、複数の動画が提案されるので最も見たい動画を選択する。(ダブルタップすることで動画をアプリ内で簡単に見られる。)
@@ -74,7 +74,13 @@
 * **スピーキング学習をしながら、エンタメも楽しみたいYoutube視聴者**
 * **日常の娯楽の延長として英語学習をしたい人**
 
-|<img width="250" alt="Screenshot 2024-10-27 at 23 54 19" src="https://github.com/user-attachments/assets/bde8e8eb-3fe7-4bc7-ba71-ebdb0a39801e">|<img width="250" alt="Screenshot 2024-10-27 at 23 58 23" src="https://github.com/user-attachments/assets/99bbf964-85e5-4cb6-ae75-01b97f3ce58d">|<img width="250" alt="Screenshot 2024-10-27 at 23 58 56" src="https://github.com/user-attachments/assets/ff0a6261-a7f3-4b7e-89b6-f40ba6253742">|<img width="250" alt="Screenshot 2024-10-28 at 0 07 36" src="https://github.com/user-attachments/assets/e70ef802-a37e-48d0-9cd5-8dca522071b3">|<img width="250" alt="Screenshot 2024-10-28 at 0 09 44" src="https://github.com/user-attachments/assets/459c77d7-a5fd-4acb-bf4c-a76caad06522">|
+
+<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="250"/>
 
 
 ### 3.News
@@ -87,7 +93,13 @@
 * **社会情勢も英語学習と一緒に知っておきたい社会人**
 * **趣味が多いわけではないが身近なテーマでスピーキングをやりたい人**
 
-|<img width="250" alt="Screenshot 2024-10-28 at 0 17 39" src="https://github.com/user-attachments/assets/d6070bad-2830-4951-8384-efc7d0e20aa5">|<img width="250" alt="Screenshot 2024-10-28 at 0 18 53" src="https://github.com/user-attachments/assets/50a6b82d-b441-4eac-8a09-6e9c44ce7066">|<img width="250" alt="Screenshot 2024-10-28 at 1 13 05" src="https://github.com/user-attachments/assets/b77a83b4-c216-4bbb-904f-b6e54da5e2fb">|<img width="250" alt="Screenshot 2024-10-28 at 0 22 29" src="https://github.com/user-attachments/assets/2d003cc6-6b3d-4ca2-a324-85c4fe0d2bbf">|<img width="250" alt="Screenshot 2024-10-28 at 0 09 44" src="https://github.com/user-attachments/assets/42d395c3-edd5-4e24-9223-31404a3084b7">|
+<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="250"/>
 
 ### 4.画像テーマ
 #### 4.1. 自分が撮影、ダウンロードした画像を選択します。
@@ -98,6 +110,13 @@
 * **画像や視覚的な情報から発想を広げて学びたい人**
 * **自己表現を大切にする人⇒自分の経験や思いを英語で表現し、表現力を磨きたい人**
 * **親子の時間を楽しみたい家庭⇒子どもが好きなモノでテーマを生成し一緒に英語を学べる**
+
+<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="250"/>
 
 
 ### 5.マラソン
@@ -110,6 +129,22 @@
 * **自分の成長を可視化することでモチベーションを得たい人**
 * **ランクが上がることや競技性に楽しみを感じる人**
 * **日々の頑張りを共有したい人**
+
+
+
+
+
+<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+|<img src="" alt="画像説明" width="250"/>
+
 
 ### 解決出来ること
 まず一番は楽しく勉強をすることができるので、学生から大人まですべての英語学習者が楽しく継続的に英語スピーチ練習を学ぶことができます。 また、それぞれのモードを設定したのは、以下を解決することを目的にしているからです。
