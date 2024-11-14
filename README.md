@@ -60,11 +60,7 @@
 * **動画、ニュース等を介さないシンプルなスピーキング練習をしたい人**
 
 
-<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
+<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
 
 
 
