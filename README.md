@@ -121,7 +121,7 @@
 #### 4.1. 自分が撮影、ダウンロードした画像を選択します。
 
 <img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="230"/>
-<img src="https://github.com/user-attachments/assets/8a16b0c6-34f0-4344-81fe-0f1139951348" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/8a16b0c6-34f0-4344-81fe-0f1139951348" alt="画像説明" width="245"/>
 <img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="230"/>
 
 #### 4.2. テーマ生成ボタンを押すと画像に関連するテーマが生成されます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
