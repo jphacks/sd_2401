@@ -59,6 +59,28 @@
 * **自分の好きなことならたくさん話せる人**
 * **動画、ニュース等を介さないシンプルなスピーキング練習をしたい人**
 
+
+<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
+|<img src="https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9" alt="画像説明" width="250"/>
+
+
+
+
+|<img src="" alt="画像説明" width="250"/>  ![Screenshot_2024-11-15_at_2 28 23-removebg-preview](https://github.com/user-attachments/assets/1136524a-943e-4380-a4ac-82773a67e3e9)
+
+|![Screenshot_2024-11-15_at_2 02 03-removebg-preview](https://github.com/user-attachments/assets/14007276-6d2b-4d75-9e45-c594e682f9e9)
+
+|![Screenshot_2024-11-15_at_2 03 44-removebg-preview](https://github.com/user-attachments/assets/8bf463b1-5a64-4d36-9856-ffdc136aa39b)
+
+|![Screenshot_2024-11-15_at_2 04 29-removebg-preview](https://github.com/user-attachments/assets/a9ecad8f-1f21-4fd3-b77c-f8d718ea59a0)
+|
+
+|
+|
+
 |<img width="250" alt="Screenshot 2024-10-28 at 0 26 22" src="https://github.com/user-attachments/assets/d322c3e1-4d85-4d55-8690-d6569c8dcd33">|<img width="250" alt="Screenshot 2024-10-28 at 0 27 01" src="https://github.com/user-attachments/assets/2efe477c-049d-476f-99d2-1e442b2f7f31">|<img width="250" alt="Screenshot 2024-10-28 at 0 33 56" src="https://github.com/user-attachments/assets/30bcdb10-7cfa-4642-92bd-2b121d701cae">|<img width="250" alt="Screenshot 2024-10-28 at 0 36 08" src="https://github.com/user-attachments/assets/a7c71165-aad2-47ee-b111-11a1f9c3ee97">|<img width="250" alt="Screenshot 2024-10-28 at 0 35 07" src="https://github.com/user-attachments/assets/d8c195ba-1822-495a-b1d7-ec92cf7a3a53">|
 
 ### 2.Youtube
