@@ -58,6 +58,7 @@
 <img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="200"/>
 
 #### 1.3. マイクボタンを押して選択した「最も話したいテーマ」に関するスピーチを行い、音声を提出すると、評価が得られる。評価では、WordPerMinute、発音と流暢さ、話した内容の独自性、発音のチェック、模範解答等を分析＆採点しています。
+
 <img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/5b03ef37-aebe-41ab-b312-d3e7de2280b8" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/0479eefa-f35b-4a74-9c00-ab80f0cac788" alt="画像説明" width="200"/>
@@ -76,6 +77,7 @@
 <img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="200"/>
+
 #### 2.2. マイクボタンを押して選択した動画に関するスピーチを行い、音声を提出すると、評価が得られる。
 
 <img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="200"/>
@@ -90,7 +92,9 @@
 
 ### 3.News
 #### 3.1. 興味のあるワードを入力し、検索ワードにヒットする最近の人気なニュースを検索します。
+
 <img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="200"/>
+
 #### 3.2. 提案されたニュースを一つ選択することで、スピーチテーマを生成します(選択したニュースの左下を押すことで、ニュースをSafari等のブラウザで見れます)。記事のキーワードボタンを押すことでスピーチに使える重要キーワードをニュース記事から抽出してくれます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
 
 <img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="200"/>
@@ -98,6 +102,7 @@
 <img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="200"/>
+
 #### 3.3. 3.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られる。この評価は、ChatGPTに記事の内容の全文を送ることによって精度の高い評価を実現しています。
 
 <img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="200"/>
@@ -115,10 +120,14 @@
 
 ### 4.画像テーマ
 #### 4.1. 自分が撮影、ダウンロードした画像を選択します。
+
 <img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="200"/>
 <img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="200"/>
+
 #### 4.2. テーマ生成ボタンを押すと画像に関連するテーマが生成されます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
+
 <img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="200"/>
+
 #### 4.3. 4.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られます。
 
 <img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="200"/>
