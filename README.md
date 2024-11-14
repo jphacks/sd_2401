@@ -182,7 +182,8 @@
 * Open API(ChatGPT, Whisper)
 * Youtube API
 * Speechace API
-* News API 
+* News API
+* gooラボAPI キーワード抽出API
 
 #### フレームワーク・ライブラリ・モジュール
 * SwiftUI
