@@ -58,9 +58,9 @@
 |<img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="200"/>
 
 #### 1.3. マイクボタンを押して選択した「最も話したいテーマ」に関するスピーチを行い、音声を提出すると、評価が得られる。評価では、WordPerMinute、発音と流暢さ、話した内容の独自性、発音のチェック、模範解答等を分析＆採点しています。
-|<img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="200"/>
-|<img src="https://github.com/user-attachments/assets/5b03ef37-aebe-41ab-b312-d3e7de2280b8" alt="画像説明" width="200"/>
-|<img src="https://github.com/user-attachments/assets/0479eefa-f35b-4a74-9c00-ab80f0cac788" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/5b03ef37-aebe-41ab-b312-d3e7de2280b8" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/0479eefa-f35b-4a74-9c00-ab80f0cac788" alt="画像説明" width="200"/>
 
 #### ＜対象ユーザー＞
 * **自分の好きなことならたくさん話せる人**
