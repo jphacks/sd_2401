@@ -55,7 +55,7 @@
 #### 1.2. 好きなワードに対してテーマ生成をして、複数のスピーチテーマから最も話したいテーマを選びます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
 
 <img src="https://github.com/user-attachments/assets/b3f776f9-d5d7-408c-b0fc-e848931c4275" alt="画像説明" width="200"/>
-|<img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/3bb2b184-389e-487e-b3c2-82257929f828" alt="画像説明" width="200"/>
 
 #### 1.3. マイクボタンを押して選択した「最も話したいテーマ」に関するスピーチを行い、音声を提出すると、評価が得られる。評価では、WordPerMinute、発音と流暢さ、話した内容の独自性、発音のチェック、模範解答等を分析＆採点しています。
 <img src="https://github.com/user-attachments/assets/8d75c466-6bec-49cd-84cc-e29e78d89047" alt="画像説明" width="200"/>
@@ -69,84 +69,98 @@
 
 
 
-
-
-
 ### 2.Youtube
 #### 2.1. 見たい動画の検索ワードを入力し検索し、複数の動画が提案されるので最も見たい動画を選択する。(ダブルタップすることで動画をアプリ内で簡単に見られる。)
+
+<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="200"/>
 #### 2.2. マイクボタンを押して選択した動画に関するスピーチを行い、音声を提出すると、評価が得られる。
+
+<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="200"/>
 
 #### ＜対象ユーザー＞
 * **スピーキング学習をしながら、エンタメも楽しみたいYoutube視聴者**
 * **日常の娯楽の延長として英語学習をしたい人**
 
-<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="230"/>|<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="230"/>|<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="230"/>
 
 
 ### 3.News
 #### 3.1. 興味のあるワードを入力し、検索ワードにヒットする最近の人気なニュースを検索します。
+<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="200"/>
 #### 3.2. 提案されたニュースを一つ選択することで、スピーチテーマを生成します(選択したニュースの左下を押すことで、ニュースをSafari等のブラウザで見れます)。記事のキーワードボタンを押すことでスピーチに使える重要キーワードをニュース記事から抽出してくれます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
+
+<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/228615dc-638e-43f1-a6f0-9f10f3528708" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="200"/>
 #### 3.3. 3.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られる。この評価は、ChatGPTに記事の内容の全文を送ることによって精度の高い評価を実現しています。
+
+<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="200"/>
 
 #### <対象ユーザー>
 * **時事や経済など、最新のニュース素材を題材として勉強したい人**
 * **社会情勢も英語学習と一緒に知っておきたい社会人**
 * **趣味が多いわけではないが身近なテーマでスピーキングをやりたい人**
 
-<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/228615dc-638e-43f1-a6f0-9f10f3528708" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="230"/>
+
+
+
 
 ### 4.画像テーマ
 #### 4.1. 自分が撮影、ダウンロードした画像を選択します。
+<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="200"/>
 #### 4.2. テーマ生成ボタンを押すと画像に関連するテーマが生成されます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
+<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="200"/>
 #### 4.3. 4.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られます。
+
+<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="200"/>
 
 #### <対象ユーザー>
 * **画像や視覚的な情報から発想を広げて学びたい人**
 * **自己表現を大切にする人⇒自分の経験や思いを英語で表現し、表現力を磨きたい人**
 * **親子の時間を楽しみたい家庭⇒子どもが好きなモノでテーマを生成し一緒に英語を学べる**
 
-<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="230"/>
 
 
 ### 5.マラソン
 #### 5.1. 繰り返し回数を事前に指定します
+
+<img src="https://github.com/user-attachments/assets/d9e8a9c4-8795-4b62-be6b-67c2f55a5ae3" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/89fd417c-0cd7-458c-91c1-1b1fb0138265" alt="画像説明" width="200"/>
+
 #### 5.2. 指定した回数だけテーマ生成、録音、評価を繰り返します。各フェーズにはそれぞれ制限時間がついています。また、マラソン中は直前に選択したテーマを保存しているのでテーマを固定して録音、評価を繰り返すことで同じテーマに対して何度も練習することができます。これらによってテンポのよい学習が可能です。さらに、評価画面では内容評価と音声評価を換算して200点満点にして毎回保存していきます。
+
+<img src="https://github.com/user-attachments/assets/5b0f11ce-8a1e-49c9-ae50-803d07652e2b" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/0c4e43a6-ee8d-4fea-82d1-75c240c7f03c" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/17b1a895-b285-4e5f-813c-aa13fb7c1582" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/25a8d004-884b-4f05-bcc2-0a184c69afcd" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/5022670a-018e-4e47-ad80-bfecc991748a" alt="画像説明" width="200"/>
+
 #### 5.3.指定した回数のマラソンが終了すると、各回の得点の推移を棒グラフで見ることが出来ます。この得点の平均によって背景が金、銀、銅、青のいずれかに決まります。shareボタンを押すと、スコアのグラフ画像をコメントとともにSNSに共有できます。
+
+<img src="https://github.com/user-attachments/assets/a5472aa1-2926-4df5-88cd-f7b58c7d28e9" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/594bf216-393f-40a7-b51c-f89dcc1801d4" alt="画像説明" width="200"/>
+
 #### 5.4. 設定画面に戻り「過去の記録を見る」を押すと過去のマラソンの得点の平均が折れ線グラフで表示されます。直近7日間のマラソンモードの継続日数とマラソンの得点によりgold, silver, bronze, blueのいずれかが決まり、これによりランクシステムを実現しています。こちらもshareボタンを押すと、背景画像をコメントとともにSNSに共有でき、ランクが上がった喜びを友達とシェアできます。
+
+<img src="https://github.com/user-attachments/assets/870fef05-b35a-4471-bf1b-4ff62e7c779f" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/b171f139-d419-4b24-8211-d3374fd9141a" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/c071ce64-3b90-4c52-a6b9-c79dd71b4d18" alt="画像説明" width="200"/>
 
 #### <対象ユーザー>
 * **自分の成長を可視化することでモチベーションを得たい人**
 * **ランクが上がることや競技性に楽しみを感じる人**
 * **日々の頑張りを共有したい人**
-
-
-<img src="https://github.com/user-attachments/assets/5b0f11ce-8a1e-49c9-ae50-803d07652e2b" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/0c4e43a6-ee8d-4fea-82d1-75c240c7f03c" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/17b1a895-b285-4e5f-813c-aa13fb7c1582" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/25a8d004-884b-4f05-bcc2-0a184c69afcd" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/5022670a-018e-4e47-ad80-bfecc991748a" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/a5472aa1-2926-4df5-88cd-f7b58c7d28e9" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/594bf216-393f-40a7-b51c-f89dcc1801d4" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/870fef05-b35a-4471-bf1b-4ff62e7c779f" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/b171f139-d419-4b24-8211-d3374fd9141a" alt="画像説明" width="230"/>
-|<img src="https://github.com/user-attachments/assets/c071ce64-3b90-4c52-a6b9-c79dd71b4d18" alt="画像説明" width="230"/>
 
 
 ### 解決出来ること
