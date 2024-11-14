@@ -80,13 +80,13 @@
 * **スピーキング学習をしながら、エンタメも楽しみたいYoutube視聴者**
 * **日常の娯楽の延長として英語学習をしたい人**
 
-<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="250"/>
+<img src="https://github.com/user-attachments/assets/81c9fe91-4adb-4225-984f-656bcf948020" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/ea5167c5-faa9-4fe2-ae16-2b794ed63065" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/aca79e83-28d6-4bc5-ba25-70d4864869cb" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/5f36ae9d-5ef8-44c1-9a55-848d57167b6e" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/9cf1ea57-9f77-4b01-95f3-16cbb6175b07" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/05405af3-3a2d-4989-be5d-b57ade50f3c7" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/07f17f77-48e1-4135-909a-0af44ee2f203" alt="画像説明" width="230"/>
 
 
 ### 3.News
@@ -99,15 +99,15 @@
 * **社会情勢も英語学習と一緒に知っておきたい社会人**
 * **趣味が多いわけではないが身近なテーマでスピーキングをやりたい人**
 
-<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/228615dc-638e-43f1-a6f0-9f10f3528708" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="250"/>
+<img src="https://github.com/user-attachments/assets/d6e468d2-d1db-4bcc-9681-171302764e69" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/0dc02c2f-d70c-4dde-b32b-1c4673924b2e" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/228615dc-638e-43f1-a6f0-9f10f3528708" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/6e2d1d4d-0816-462d-8538-803d66f9f0e5" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/52e7273d-fdf1-4297-8ed8-92bcb8595d03" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/28bfe4cd-46c3-4271-bf95-957fe2a36049" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="230"/>
 
 ### 4.画像テーマ
 #### 4.1. 自分が撮影、ダウンロードした画像を選択します。
@@ -119,12 +119,12 @@
 * **自己表現を大切にする人⇒自分の経験や思いを英語で表現し、表現力を磨きたい人**
 * **親子の時間を楽しみたい家庭⇒子どもが好きなモノでテーマを生成し一緒に英語を学べる**
 
-<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="250"/>
+<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="230"/>
 
 
 ### 5.マラソン
@@ -139,16 +139,16 @@
 * **日々の頑張りを共有したい人**
 
 
-<img src="https://github.com/user-attachments/assets/5b0f11ce-8a1e-49c9-ae50-803d07652e2b" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/0c4e43a6-ee8d-4fea-82d1-75c240c7f03c" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/17b1a895-b285-4e5f-813c-aa13fb7c1582" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/25a8d004-884b-4f05-bcc2-0a184c69afcd" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/5022670a-018e-4e47-ad80-bfecc991748a" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/a5472aa1-2926-4df5-88cd-f7b58c7d28e9" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/594bf216-393f-40a7-b51c-f89dcc1801d4" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/870fef05-b35a-4471-bf1b-4ff62e7c779f" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/b171f139-d419-4b24-8211-d3374fd9141a" alt="画像説明" width="250"/>
-|<img src="https://github.com/user-attachments/assets/c071ce64-3b90-4c52-a6b9-c79dd71b4d18" alt="画像説明" width="250"/>
+<img src="https://github.com/user-attachments/assets/5b0f11ce-8a1e-49c9-ae50-803d07652e2b" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/0c4e43a6-ee8d-4fea-82d1-75c240c7f03c" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/17b1a895-b285-4e5f-813c-aa13fb7c1582" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/25a8d004-884b-4f05-bcc2-0a184c69afcd" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/5022670a-018e-4e47-ad80-bfecc991748a" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/a5472aa1-2926-4df5-88cd-f7b58c7d28e9" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/594bf216-393f-40a7-b51c-f89dcc1801d4" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/870fef05-b35a-4471-bf1b-4ff62e7c779f" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/b171f139-d419-4b24-8211-d3374fd9141a" alt="画像説明" width="230"/>
+|<img src="https://github.com/user-attachments/assets/c071ce64-3b90-4c52-a6b9-c79dd71b4d18" alt="画像説明" width="230"/>
 
 
 ### 解決出来ること
