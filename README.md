@@ -104,9 +104,9 @@
 
 #### 3.3. 3.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られる。この評価は、ChatGPTに記事の内容の全文を送ることによって精度の高い評価を実現しています。
 
-<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/b5fe5759-92f7-401c-b050-e4f201a41b6d" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/53e84d8c-43b3-4e9a-b44b-2d0bd50851b8" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/8e5d2b8f-0cb5-4841-ba28-56ec45dfff6f" alt="画像説明" width="230"/>
 
 #### <対象ユーザー>
 * **時事や経済など、最新のニュース素材を題材として勉強したい人**
@@ -120,18 +120,18 @@
 ### 4.画像テーマ
 #### 4.1. 自分が撮影、ダウンロードした画像を選択します。
 
-<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/386ff0e2-df42-4925-9bf0-b84e1fed00a4" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/8a9ec03f-01bc-4331-9904-cb89c5cfd197" alt="画像説明" width="230"/>
 
 #### 4.2. テーマ生成ボタンを押すと画像に関連するテーマが生成されます。テーマ横の電球ボタンを押すことでヒントを生成してくれます。
 
-<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/3332200c-d293-40e4-b2b0-2587f66a335d" alt="画像説明" width="230"/>
 
 #### 4.3. 4.2でテーマを選択した後に、マイクボタンを押して選択したテーマに関するスピーチを行い、音声を提出すると、評価が得られます。
 
-<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/7d797fa1-2634-4cd0-b297-86af13a8a47c" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/6a521bac-ea46-4dcc-b857-c7b5c75c0ed3" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/76937c9b-55ef-423a-be12-c6388650f902" alt="画像説明" width="230"/>
 
 #### <対象ユーザー>
 * **画像や視覚的な情報から発想を広げて学びたい人**
@@ -143,27 +143,27 @@
 ### 5.マラソン
 #### 5.1. 繰り返し回数を事前に指定します
 
-<img src="https://github.com/user-attachments/assets/d9e8a9c4-8795-4b62-be6b-67c2f55a5ae3" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/89fd417c-0cd7-458c-91c1-1b1fb0138265" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/d9e8a9c4-8795-4b62-be6b-67c2f55a5ae3" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/89fd417c-0cd7-458c-91c1-1b1fb0138265" alt="画像説明" width="230"/>
 
 #### 5.2. 指定した回数だけテーマ生成、録音、評価を繰り返します。各フェーズにはそれぞれ制限時間がついています。また、マラソン中は直前に選択したテーマを保存しているのでテーマを固定して録音、評価を繰り返すことで同じテーマに対して何度も練習することができます。これらによってテンポのよい学習が可能です。さらに、評価画面では内容評価と音声評価を換算して200点満点にして毎回保存していきます。
 
-<img src="https://github.com/user-attachments/assets/5b0f11ce-8a1e-49c9-ae50-803d07652e2b" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/0c4e43a6-ee8d-4fea-82d1-75c240c7f03c" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/17b1a895-b285-4e5f-813c-aa13fb7c1582" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/25a8d004-884b-4f05-bcc2-0a184c69afcd" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/5022670a-018e-4e47-ad80-bfecc991748a" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/5b0f11ce-8a1e-49c9-ae50-803d07652e2b" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/0c4e43a6-ee8d-4fea-82d1-75c240c7f03c" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/17b1a895-b285-4e5f-813c-aa13fb7c1582" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/25a8d004-884b-4f05-bcc2-0a184c69afcd" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/5022670a-018e-4e47-ad80-bfecc991748a" alt="画像説明" width="230"/>
 
 #### 5.3.指定した回数のマラソンが終了すると、各回の得点の推移を棒グラフで見ることが出来ます。この得点の平均によって背景が金、銀、銅、青のいずれかに決まります。shareボタンを押すと、スコアのグラフ画像をコメントとともにSNSに共有できます。
 
-<img src="https://github.com/user-attachments/assets/a5472aa1-2926-4df5-88cd-f7b58c7d28e9" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/594bf216-393f-40a7-b51c-f89dcc1801d4" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/a5472aa1-2926-4df5-88cd-f7b58c7d28e9" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/594bf216-393f-40a7-b51c-f89dcc1801d4" alt="画像説明" width="230"/>
 
 #### 5.4. 設定画面に戻り「過去の記録を見る」を押すと過去のマラソンの得点の平均が折れ線グラフで表示されます。直近7日間のマラソンモードの継続日数とマラソンの得点によりgold, silver, bronze, blueのいずれかが決まり、これによりランクシステムを実現しています。こちらもshareボタンを押すと、背景画像をコメントとともにSNSに共有でき、ランクが上がった喜びを友達とシェアできます。
 
-<img src="https://github.com/user-attachments/assets/870fef05-b35a-4471-bf1b-4ff62e7c779f" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/b171f139-d419-4b24-8211-d3374fd9141a" alt="画像説明" width="200"/>
-<img src="https://github.com/user-attachments/assets/c071ce64-3b90-4c52-a6b9-c79dd71b4d18" alt="画像説明" width="200"/>
+<img src="https://github.com/user-attachments/assets/870fef05-b35a-4471-bf1b-4ff62e7c779f" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/b171f139-d419-4b24-8211-d3374fd9141a" alt="画像説明" width="230"/>
+<img src="https://github.com/user-attachments/assets/c071ce64-3b90-4c52-a6b9-c79dd71b4d18" alt="画像説明" width="230"/>
 
 #### <対象ユーザー>
 * **自分の成長を可視化することでモチベーションを得たい人**
