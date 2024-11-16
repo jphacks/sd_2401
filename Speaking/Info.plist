@@ -6,6 +6,7 @@
 	<key></key>
 	<string></string>
 	<key>NSAccessorySetupBluetoothServices</key>
+    <key>CFBundleDisplayName</key>
 	<array>
 		<string></string>
 	</array>
