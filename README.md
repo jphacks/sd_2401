@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/de5caca4-ddbf-4760-ae74-54d9cd1d2e69)# EIGOイスト
 日常の興味と結びつけて学べる英語スピーキングアプリ、 **EIGOイスト** 
 
 <img width="830" alt="Screenshot 2024-10-28 at 5 46 54" src="https://github.com/user-attachments/assets/3ece4beb-f113-4fb5-9f93-c6283c3a0e2b">
